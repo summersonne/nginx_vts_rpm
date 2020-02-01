@@ -25,14 +25,14 @@ Epoch: %{epoch}
 %endif
 %endif
 
-%define main_version 1.15.0
+%define main_version 1.17.8
 %define main_release 1%{?dist}.ngx
 
 %define bdir %{_builddir}/%{name}-%{main_version}
 
 Summary: nginx VTS dynamic modules
 Name: nginx-module-vts
-Version: 1.15.0
+Version: 1.17.8
 Release: 1%{?dist}.ngx
 Vendor: Nginx, Inc.
 URL: http://nginx.org/
@@ -47,7 +47,7 @@ License: 2-clause BSD-like license
 BuildRoot: %{_tmppath}/%{name}-%{main_version}-%{main_release}-root
 BuildRequires: zlib-devel
 BuildRequires: pcre-devel
-Requires: nginx == %{?epoch:%{epoch}:}1.15.0-1%{?dist}.ngx
+Requires: nginx == %{?epoch:%{epoch}:}1.17.8-1%{?dist}.ngx
 
 %description
 nginx VTS dynamic modules.
@@ -118,4 +118,4 @@ fi
 
 %changelog
 * Tue Mar 20 2018 Merritt Krakowitzer <merritt@krakowitzer.com>
-- initial specfile creation 1.15.0
+- initial specfile creation 1.17.8
