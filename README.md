@@ -1,3 +1,8 @@
+Credit to: https://github.com/mkrakowitzer/docker-nginx-rpm
+
+I've taken what mkrakowitzer did and changed it suit my needs. It might also helps yours.
+
+##
 # docker-nginx-rpm build
 
 A repository to build custom nginx RPMS with dynamic VTS, GEOIP2 and substitutions\_filter modules
