@@ -19,7 +19,7 @@ BuildRequires: libmaxminddb-devel
 Epoch: %{epoch}
 %define os_minor %(lsb_release -rs | cut -d '.' -f 2)
 %if %{os_minor} >= 4
-%define dist .el7_4
+%define dist .el7
 %else
 %define dist .el7
 %endif
@@ -47,7 +47,7 @@ License: 2-clause BSD-like license
 BuildRoot: %{_tmppath}/%{name}-%{main_version}-%{main_release}-root
 BuildRequires: zlib-devel
 BuildRequires: pcre-devel
-Requires: nginx == %{?epoch:%{epoch}:}1.17.8-1%{?el#}.ngx
+Requires: nginx == %{?epoch:%{epoch}:}1.17.8-1%{?dist}.ngx
 
 %description
 nginx VTS dynamic modules.
