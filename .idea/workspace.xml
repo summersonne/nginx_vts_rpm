@@ -19,6 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +30,15 @@
       <updated>1580569598574</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3557" y="258" key="SettingsEditor" timestamp="1580648201898">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3557" y="258" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1580648201898" />
+    <state x="3752" y="439" key="com.intellij.ide.util.TipDialog" timestamp="1580648251917">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3752" y="439" key="com.intellij.ide.util.TipDialog/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1580648251917" />
   </component>
 </project>
