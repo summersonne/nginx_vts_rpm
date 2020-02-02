@@ -113,5 +113,5 @@ BANNER
 fi
 
 %changelog
-* Tue Mar 20 2018 Merritt Krakowitzer <merritt@krakowitzer.com>
+* Sun 02 Feb David Kirkhope <dkirhkope@gmail.com>
 - initial specfile creation 1.17.8
