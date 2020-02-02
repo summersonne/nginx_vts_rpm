@@ -18,11 +18,7 @@ BuildRequires: libmaxminddb-devel
 %define epoch 1
 Epoch: %{epoch}
 %define os_minor %(lsb_release -rs | cut -d '.' -f 2)
-%if %{os_minor} >= 4
 %define dist .el7
-%else
-%define dist .el7
-%endif
 %endif
 
 %define main_version 1.17.8
