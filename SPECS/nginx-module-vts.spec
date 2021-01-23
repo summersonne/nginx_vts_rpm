@@ -29,7 +29,7 @@ Epoch: %{epoch}
 Summary: nginx VTS dynamic modules
 Name: nginx-module-vts
 Version: 1.18.0
-Release: 1%{?dist}.ngx
+Release: 2%{?dist}.ngx
 Vendor: Nginx, Inc.
 URL: http://nginx.org/
 Group: %{_group}
@@ -43,7 +43,7 @@ License: 2-clause BSD-like license
 BuildRoot: %{_tmppath}/%{name}-%{main_version}-%{main_release}-root
 BuildRequires: zlib-devel
 BuildRequires: pcre-devel
-Requires: nginx == %{?epoch:%{epoch}:}1.18.0-1.el7.ngx
+Requires: nginx == %{?epoch:%{epoch}:}1.18.0-2.el7.ngx
 
 %description
 nginx VTS dynamic modules.
